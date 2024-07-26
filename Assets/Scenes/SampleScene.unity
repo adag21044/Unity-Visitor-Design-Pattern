@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1b6a522cd9482eaf1cb65284b37fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUp: {fileID: 11400000, guid: 624b00917217de8489c8297dc524c6c4, type: 2}
+  PowerUp: {fileID: 11400000, guid: 624b00917217de8489c8297dc524c6c4, type: 2}
 --- !u!1 &510051365
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,7 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1b6a522cd9482eaf1cb65284b37fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUp: {fileID: 11400000, guid: b5b5ab9b8824b5a4eab2d1f6c331f1c8, type: 2}
+  PowerUp: {fileID: 11400000, guid: b5b5ab9b8824b5a4eab2d1f6c331f1c8, type: 2}
 --- !u!1 &975204864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3882,7 +3882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd550ded67054b599808a75b9bfba766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
 --- !u!114 &1467752019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3895,7 +3894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 583ec2faa26e4a9ca5d4bdc43df3d6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mana: 100
 --- !u!136 &1467752020
 CapsuleCollider:
   m_ObjectHideFlags: 0

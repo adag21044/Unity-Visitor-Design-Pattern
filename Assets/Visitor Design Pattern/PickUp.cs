@@ -1,6 +1,7 @@
 ﻿
 using UnityEngine;
 
+// Pickup class for triggering power-up
 public class PickUp : MonoBehaviour
 {
     public PowerUp PowerUp;

@@ -3,12 +3,15 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour, IVisitable
 {
-    List<IVisitable> visitableComponents = new List<IVisitable>();
+    private List<IVisitable> visitableComponents;
 
-    void Start()
+    private void Start()
     {
-        visitableComponents.Add(gameObject.GetOrAddComponent<HealthComponent>());
-        visitableComponents.Add(gameObject.GetOrAddComponent<ManaComponent>());
+        visitableComponents = new List<IVisitable>
+        {
+            gameObject.GetOrAddComponent<HealthComponent>(),
+            gameObject.GetOrAddComponent<ManaComponent>()
+        };
     }
 
     public void Accept(IVisitor visitor)

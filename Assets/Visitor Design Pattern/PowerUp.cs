@@ -8,13 +8,13 @@ public class PowerUp : ScriptableObject, IVisitor
 
     public void Visit(HealthComponent healthComponent)
     {
-        healthComponent.health += HealthBonus;
+        healthComponent.AddHealth(HealthBonus);
         Debug.Log("PowerUp.Visit(HealthComponent)");
     }
 
     public void Visit(ManaComponent manaComponent)
     {
-        manaComponent.Mana += ManaBonus;
+        manaComponent.AddMana(ManaBonus);
         Debug.Log("PowerUp.Visit(ManaComponent)");
     }
 }

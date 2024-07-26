@@ -1,23 +1,22 @@
 ﻿using UnityEngine;
 
+// Light trigger class to handle hero entering and exiting the light
 public class LightTrigger : MonoBehaviour
 {
-    public PowerUp powerUp;
+    public PowerUp PowerUp;
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("PowerUp.Visit(HealthComponent)");
         var hero = other.GetComponent<Hero>();
         if (hero != null)
         {
-            hero.Accept(powerUp);
+            hero.Accept(PowerUp);
             Debug.Log("Hero entered the light and received a power-up!");
         }
-        
     }
 
     private void OnTriggerExit(Collider other)
-    {   Debug.Log("PowerUp.Visit(HealthComponent)");
+    {
         var hero = other.GetComponent<Hero>();
         if (hero != null)
         {

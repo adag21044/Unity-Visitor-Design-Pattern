@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 
 // Extension method for adding or getting components
 public static class ComponentExtensions
