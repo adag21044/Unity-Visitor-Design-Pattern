@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312141280}
   - component: {fileID: 312141279}
+  - component: {fileID: 312141281}
   m_Layer: 0
   m_Name: ManaPowerUp
   m_TagString: Untagged
@@ -169,6 +170,27 @@ Transform:
   - {fileID: 893775311}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &312141281
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312141278}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.93019986
+  m_Center: {x: 0, y: 0, z: -0.12205386}
 --- !u!1 &415406218
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 831460115}
   - component: {fileID: 831460114}
+  - component: {fileID: 831460116}
   m_Layer: 0
   m_Name: HealthPowerUp
   m_TagString: Untagged
@@ -544,6 +567,27 @@ Transform:
   - {fileID: 415406219}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -82.971, y: 0, z: 0}
+--- !u!135 &831460116
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831460113}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.9963744
+  m_Center: {x: 0.06617433, y: 0, z: 0}
 --- !u!1 &893775310
 GameObject:
   m_ObjectHideFlags: 0

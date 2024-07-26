@@ -6,18 +6,18 @@ public class LightTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        var visitable = other.GetComponent<Hero>();
-        if (visitable != null)
+        var hero = other.GetComponent<Hero>();
+        if (hero != null)
         {
-            visitable.Accept(powerUp);
+            hero.Accept(powerUp);
             Debug.Log("Hero entered the light and received a power-up!");
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        var visitable = other.GetComponent<Hero>();
-        if (visitable != null)
+        var hero = other.GetComponent<Hero>();
+        if (hero != null)
         {
             Debug.Log("Hero exited the light!");
         }

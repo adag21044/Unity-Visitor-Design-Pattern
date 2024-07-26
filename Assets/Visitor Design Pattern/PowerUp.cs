@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "PowerUp",menuName = "PowerUp")]
+[CreateAssetMenu(fileName = "PowerUp", menuName = "PowerUp")]
 public class PowerUp : ScriptableObject, IVisitor
 {
     public int HealthBonus = 10;
