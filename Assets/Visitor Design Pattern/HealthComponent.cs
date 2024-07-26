@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// Health component implementing IVisitable
+using UnityEngine;
 
 public class HealthComponent : MonoBehaviour, IVisitable
 {
