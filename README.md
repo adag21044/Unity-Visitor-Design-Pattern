@@ -1,4 +1,4 @@
-# Unity Visitor Pattern Example
+# Unity Visitor Pattern 
 
 This repository demonstrates the implementation of the Visitor design pattern in Unity. The Visitor pattern allows you to add further operations to objects without modifying them. In this example, we have a hero character that can receive power-ups by entering a light trigger or picking up items.
 
